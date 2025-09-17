@@ -1,5 +1,5 @@
 # smithsonianphotoframe
-A python script that autoloads a random Smithsonian image of a painting into a webpage.
+A python script that autoloads a random Smithsonian image of a painting into a webpage. Developed with assistance from ChatGPT.
 
 Written in Python3. Requires (free) API key: https://api.data.gov/signup/
 
