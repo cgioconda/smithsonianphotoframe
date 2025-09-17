@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Written by Christopher Gioconda with ChatGPT assistance 09/27/2025
 from flask import Flask, render_template_string
 import requests
 import random
@@ -15,7 +16,7 @@ def get_random_highres_image():
             search_url = f"{BASE_URL}/search"
             params = {
                 "api_key": API_KEY,
-                "q": "online_media_type:Images AND paintings", # Change keywords here for filter
+                "q": "online_media_type:Images AND paintings", # Change keywords here for filters
                 "rows": 1,
                 "start": random.randint(0, 10000)
             }
